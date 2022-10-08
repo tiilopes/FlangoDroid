@@ -16,7 +16,7 @@ del_word = ["88+","８８+"]
 ignore_lang = ["",""]
 
 # 配信者が使用している言語。あらゆる言語がこの言語に翻訳されます。
-home_lang = "ja"
+home_lang = "pt"
 
 # 上のhome_langで投稿された時の翻訳先
 default_to_lang = "en"
@@ -30,7 +30,7 @@ sender = True
 # 上がTrueの場合に表示する名前
 # "displayname" でディスプレイネーム
 # "loginid" でログインID
-sender_name = "displayname"
+sender_name = "FlangoDroid"
 
 # 翻訳結果に言語情報(en ⇒ ja)を付ける場合はTrue、付けない場合はFalse
 language = True

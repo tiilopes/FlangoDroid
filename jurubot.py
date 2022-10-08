@@ -1,7 +1,7 @@
 import asyncio
 
 from pyfiglet import Figlet
-from twitchio import Message, Context, Channel
+from twitchio import Message, Channel 
 from twitchio.ext import commands
 
 import check_token
@@ -117,14 +117,14 @@ class Bot(commands.Bot):
 
     # !ver
     @commands.command(name='ver')
-    async def ver(self, ctx: Context):
+    async def ver(self, ctx: commands.Context):
         if config_bot.send_me:
             await ctx.send_me(f'{config_bot.send_message_prefix}このBotはJurubotTranslator ver{version}です！ http://neko2.net/jurubot ')
         else:
             await ctx.send(f'{config_bot.send_message_prefix}このBotはJurubotTranslator ver{version}です！ http://neko2.net/jurubot ')
     # !lang
     @commands.command(name='lang')
-    async def lang(self, ctx: Context):
+    async def lang(self,  ctx: commands.Context):
         if config_bot.send_me:
             await ctx.send_me(f'{config_bot.send_message_prefix}言語コード一覧はこちらです！ https://cloud.google.com/translate/docs/languages ')
         else:
@@ -138,20 +138,21 @@ if __name__ == '__main__':
     print(translator_f)
     print(f'Jurubot_Translator ver{version}\r\n')
     
-    print('トークンをチェック中...')
-    token = oauth_key.token
-    if not token:
-        print('トークンを取得してください')
-        input('Enterを押すと終了します...')
-        quit()
-    else:
-        validate, login_id = check_token.check_token(token)
-        if not validate:
-            input('Enterを押すと終了します....')
-            quit()
-    token = 'oauth:' + token
+    #print('トークンをチェック中...')
+    #token = oauth_key.token
+    #if not token:
+    #    print('トークンを取得してください')
+    #    input('Enterを押すと終了します...')
+    #    quit()
+    #else:
+    #    validate, login_id = check_token.check_token(token)
+    #    if not validate:
+    #        input('Enterを押すと終了します....')
+    #        quit()
+    #token = 'oauth:' + token
     
-    bot = Bot(token, login_id)
+    bot = Bot()
+    bot.run()
     try:
         bot.run()
     except Exception as e:

@@ -4,7 +4,7 @@
 ##################################################
 
 # 接続するチャンネル
-channel   = "__Your_Channel__"
+channel   = "Tieek"
 
 # Botのカラー 下の中から選択
 # 'Red','Blue','Green','Firebrick','Coral','YellowGreen',

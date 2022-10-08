@@ -1,6 +1,6 @@
 import requests
 
-client_id = '0vak4vlm2cdhrpwgq1iabfs38u5h5d'
+client_id = 'riysb98qsrw258wjqky1rja6474j3k'
 url = 'https://id.twitch.tv/oauth2/validate'
 
 def check_token(token: str):
