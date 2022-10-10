@@ -1,5 +1,3 @@
-_(Sorry, Japanese only...)_  
-**→If you can see this sentence in Japanese, please turn off the translation of your browser.←**  
 # 🐻FlangoDroid v1.0.3 
 [![CodeQL](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml)
 [![OSSAR](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml) 
@@ -12,31 +10,29 @@ _(Sorry, Japanese only...)_
 ## 🐻Projeto ainda em desenvolvimento poderá haver bugs.｛リリースしたばかりにつき不具合注意
 - 不具合がありましたら下のDiscordサーバーまでお知らせ頂けると助かります。
   
-## 🐻｛Jurubotの翻訳部分をアプリにしました。
+## 🐻Este projeto pode ser visto em meu canal da [twitch]*https://twitch.tv/tieek) ou no canal abaixo.
 - Jurubotとは？ → [りんご水さんのチャンネル](https://www.twitch.tv/hanaringosui)にいるボットです。  
   
-## 🐻｛特徴  
-- エモートを抜いて翻訳にかけます(Twitchエモート、BTTVのチャンネル＆グローバルエモート、FFZのグローバルエモート)
-- 簡単な定期コメント機能(設定した時間ごとに設定した文章を投稿します)
-- 棒読みちゃん連携機能(読み上げさせるメッセージも設定できます)
-- GoogleAppsScriptでデプロイした翻訳APIが使えます。(Discordサーバーに図解あります)
+## 🐻Recursos  
+- Adcionado Emotes BTTV + FFZ + 7TV
+- Fácil tradução do texto. ( pt > en, en > pt ) ou a lígua que desejar, totalmente configuravel.
+- Usa API do google translate.
   
-## 🐻｛どうやって使うの？
-1. [Releases](https://github.com/Charahiro-tan/Jurubot_Translator/releases)からダウンロードしてください
-2. トークンを取得します
-3. config_bot.pyとconfig_translator.pyをいい感じにします
+## 🐻 Como Instalar?
+1. Faça o download ou o git do pacote.
+2. Pegue seu token para o Bot fornecido pela twitch.
+3. config_bot.py para configuração do BOT, config_translator.py para configuraçao do tradutor.
 4. enjoy!  
-(質問はDiscordサーバーでお受けします。)  
 
-## 🐻｛ファイル構成  
-┣jurubot.py(ボットのメイン)  
-┣get_token_auto.py(トークン取得スクリプト(ほぼ自動取得))  
-┣get_token_manual.py(トークン取得スクリプト(少々手動))  
-┣config_bot.py(Bot関連の設定)  
-┣config_translator.py(翻訳関係の設定)  
+## 🐻Arquivos.
+┣jurubot.py(Bot main) 
+┣get_token_auto.py (para adquirir seu token, totalmente automático)
+┣get_token_manual.py(token manual) 
+┣config_bot.py( config do bot) 
+┣config_translator.py(config do translate)  
 ┆  
-┗(その他関連ファイル)  
+┗(ver outros arquivos.)
   
-## 🐻｛プリーズJoin&Follow！
-- [__Discord Server__](https://discord.gg/bhpBKCJV8R)(どなたでもお気軽にどうぞ)
-- [有益な情報が一切ないTwitter](https://twitter.com/__Charahiro)
+## 🐻Projeto Orignal.
+Este foi um projeto modificado. A versao original dele você encontra em https://github.com/Charahiro-tan/Jurubot_Translator.
+Assim como todos os direitos do criador.
