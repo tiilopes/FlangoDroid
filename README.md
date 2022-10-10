@@ -1,6 +1,6 @@
 _(Sorry, Japanese only...)_  
 **→If you can see this sentence in Japanese, please turn off the translation of your browser.←**  
-# 🐻｛Jurubot_Translator  
+# 🐻FlangoDroid v1.0.3 
 [![CodeQL](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml)
 [![OSSAR](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/46dffc9224e634d72f8b/maintainability)](https://codeclimate.com/github/Charahiro-tan/Jurubot_Translator/maintainability)
@@ -8,9 +8,8 @@ _(Sorry, Japanese only...)_
 [![TwitchIO](https://img.shields.io/badge/Twitch-IO-ffff00)](https://github.com/TwitchIO/TwitchIO)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 - A bot that translates Twitch chats.  
-- Twitchのチャットを翻訳するボット</div>
   
-## 🐻｛リリースしたばかりにつき不具合注意
+## 🐻Projeto ainda em desenvolvimento poderá haver bugs.｛リリースしたばかりにつき不具合注意
 - 不具合がありましたら下のDiscordサーバーまでお知らせ頂けると助かります。
   
 ## 🐻｛Jurubotの翻訳部分をアプリにしました。
