@@ -10,7 +10,7 @@
 ## 🐔Projeto ainda em desenvolvimento poderá haver bugs.｛リリースしたばかりにつき不具合注意
 - 不具合がありましたら下のDiscordサーバーまでお知らせ頂けると助かります。
   
-## 🐔Este projeto pode ser visto em meu canal da [twitch]*https://twitch.tv/tieek) ou no canal abaixo.
+## 🐔Este projeto pode ser visto em meu canal da [twitch](https://twitch.tv/tieek) ou no canal abaixo.
 - Jurubotとは？ → [りんご水さんのチャンネル](https://www.twitch.tv/hanaringosui)にいるボットです。  
   
 ## 🐔Recursos  
