@@ -1,4 +1,5 @@
 # 🐔FlangoDroid v1.0.3 
+-> Este projeto ainda está em desenvolvimento.
 [![CodeQL](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/codeql-analysis.yml)
 [![OSSAR](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/Charahiro-tan/Jurubot_Translator/actions/workflows/ossar-analysis.yml) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/46dffc9224e634d72f8b/maintainability)](https://codeclimate.com/github/Charahiro-tan/Jurubot_Translator/maintainability)
