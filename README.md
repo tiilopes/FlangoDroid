@@ -6,7 +6,7 @@ _(Sorry, Japanese only...)_
 [![Maintainability](https://api.codeclimate.com/v1/badges/46dffc9224e634d72f8b/maintainability)](https://codeclimate.com/github/Charahiro-tan/Jurubot_Translator/maintainability)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/Charahiro-tan/Jurubot_Translator/blob/main/LICENSE)
 [![TwitchIO](https://img.shields.io/badge/Twitch-IO-ffff00)](https://github.com/TwitchIO/TwitchIO)
-[![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 - A bot that translates Twitch chats.  
 - Twitchのチャットを翻訳するボット</div>
   
