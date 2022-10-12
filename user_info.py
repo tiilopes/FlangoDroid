@@ -5,7 +5,7 @@ client_id = 'riysb98qsrw258wjqky1rja6474j3k'
 
 class GetUserInfo:
     def __init__(self):
-        self.user_info_url = 'https://api.twitch.tv/helix/users?login={}'
+        self.user_info_url = '<your ouath>'
         self.token         = oauth_key.token
         self.headers       = {'Authorization':'Bearer '+self.token , 'Client-Id':client_id}
     
