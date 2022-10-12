@@ -1,11 +1,11 @@
 import oauth_key
 import requests
 
-client_id = 'riysb98qsrw258wjqky1rja6474j3k'
+client_id = '<your oauth>'
 
 class GetUserInfo:
     def __init__(self):
-        self.user_info_url = '<your ouath>'
+        self.user_info_url = 'https://api.twitch.tv/helix/users?login={}'
         self.token         = oauth_key.token
         self.headers       = {'Authorization':'Bearer '+self.token , 'Client-Id':client_id}
     
